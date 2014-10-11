@@ -162,7 +162,7 @@
 #define HEATER_0_MAXTEMP 295 // for E3D full metal hot-end
 #define HEATER_1_MAXTEMP 250
 #define HEATER_2_MAXTEMP 250
-#define BED_MAXTEMP 125
+#define BED_MAXTEMP 145
 
 // If your bed has low resistance e.g. .6 ohm and throws the fuse you can duty cycle it to reduce the
 // average current. The value should be an integer and the heat bed will be turned on for 1 interval of
@@ -443,7 +443,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,680}  // default steps per unit for Prusa i3
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,742}  // default steps per unit for Prusa i3
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 3.33, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,20,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
