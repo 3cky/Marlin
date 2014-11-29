@@ -42,9 +42,13 @@
   extern int absPreheatHotendTemp;
   extern int absPreheatHPBTemp;
   extern int absPreheatFanSpeed;
+  
+  extern bool cancel_heatup;
     
   void lcd_buzz(long duration,uint16_t freq);
   bool lcd_clicked();
+
+  void lcd_ignore_click(bool b=true);
 
   #ifdef NEWPANEL
     #define EN_C (1<<BLEN_C)
